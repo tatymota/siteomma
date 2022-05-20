@@ -155,4 +155,15 @@ body{
     margin-bottom: 30px;
     text-align: center;
 }
+.button{
+    color: #176902;
+    background-color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    border-radius: 14px;
+    margin-right: 20px;
+    }
 
