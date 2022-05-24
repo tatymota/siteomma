@@ -1,0 +1,143 @@
+body{
+    font-family: 'Montserrat';
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background: #FFC107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header-img {
+    width: 324px;
+    height: 84px;
+}
+.nav{
+    width: 100%;
+    height: 48px;
+    background: #FFA000;
+}
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;    
+    margin: 0;
+    padding: 10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    
+}
+.nav-li{
+    display: inline;
+}
+
+.nav-inicio{
+    width: 57px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #FDFDFD;
+    text-decoration:none;
+    margin-right: 20px;
+}
+
+.nav-inicio:hover {
+    font-size: 30px;
+}
+
+.nav-receitas{
+    width: 84px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #FDFDFD;
+    text-decoration:none;
+}
+.nav-contato{
+    width: 82px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #FDFDFD;
+    text-decoration:none;
+    margin-left: 30px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 119px;
+    background: #FFC107;
+}
+.footer-logo{
+    width: 324px;
+    height: 84px;
+}
+.footer-span{
+    width: 464px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    padding: 10px;
+}
+h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    text-transform: lowercase;
+    color: #FFA000;
+    flex-basis: 100%;
+    margin-left: 27px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.lista-itens{
+    flex-basis: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.lista-itens > img{
+    width: 345px;
+    height: 342px;
+}
+.lista-itens > button{
+    width: 185px;
+    height: 48px;
+    background: #176902;
+    color: white;
+    font-size: 20px;
+}
+.lista-itens > p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+}
